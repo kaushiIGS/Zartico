@@ -1,0 +1,22 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Chromium
+        run: sudo apt-get install chromium-browser
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18.x
+      - run: npm install
+        name: Install dependencies
+      - run: npx cross-env ENV=dev npm run web
+        name: Running E2E tests
