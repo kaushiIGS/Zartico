@@ -1,11 +1,11 @@
 {
-  "uid" : "b16e2172bd233042",
-  "name" : "Verify Signin functionality ",
-  "historyId" : "e7fc444c9afce33069c1bb36e12fa4e7",
+  "uid" : "d59fcd78f4cd14f",
+  "name" : "Verify Signout functionality ",
+  "historyId" : "280ca25688a4d51d3fa8062aac846921",
   "time" : {
-    "start" : 1712227478716,
-    "stop" : 1712227485964,
-    "duration" : 7248
+    "start" : 1712228891092,
+    "stop" : 1712228905413,
+    "duration" : 14321
   },
   "status" : "passed",
   "flaky" : false,
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "\"before each\" hook for All functionality CAT",
       "time" : {
-        "start" : 1712227478717,
-        "stop" : 1712227479520,
-        "duration" : 803
+        "start" : 1712228891092,
+        "stop" : 1712228891240,
+        "duration" : 148
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,11 +34,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "4325c6ff5bb9f3f3",
+      "uid" : "c68923ad0e74e74d",
       "name" : "Console Logs",
-      "source" : "4325c6ff5bb9f3f3.txt",
+      "source" : "c68923ad0e74e74d.txt",
       "type" : "text/plain",
-      "size" : 9610
+      "size" : 4653
     } ],
     "parameters" : [ ],
     "stepsCount" : 1,
@@ -82,6 +82,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b16e2172bd233042.json",
+  "source" : "d59fcd78f4cd14f.json",
   "parameterValues" : [ "chrome-headless-shell-125.0.6398.0" ]
 }

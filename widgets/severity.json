@@ -1,40 +1,40 @@
 [ {
-  "uid" : "3b8703525deaff56",
-  "name" : "Verify Signout functionality ",
-  "time" : {
-    "start" : 1712227501581,
-    "stop" : 1712227515853,
-    "duration" : 14272
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5c4f2e2bebfbda8d",
-  "name" : "Verify Homepage and HelpPage functionality ",
-  "time" : {
-    "start" : 1712227487967,
-    "stop" : 1712227493366,
-    "duration" : 5399
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b16e2172bd233042",
+  "uid" : "384e63d0aca6b5c1",
   "name" : "Verify Signin functionality ",
   "time" : {
-    "start" : 1712227478716,
-    "stop" : 1712227485964,
-    "duration" : 7248
+    "start" : 1712228866164,
+    "stop" : 1712228873024,
+    "duration" : 6860
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2aed8a7c215f17ee",
+  "uid" : "ad277b6be0f6e3df",
   "name" : "Verify Profile Page functionality ",
   "time" : {
-    "start" : 1712227495369,
-    "stop" : 1712227499580,
-    "duration" : 4211
+    "start" : 1712228883335,
+    "stop" : 1712228889091,
+    "duration" : 5756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b734527aa04486f",
+  "name" : "Verify Homepage and HelpPage functionality ",
+  "time" : {
+    "start" : 1712228875027,
+    "stop" : 1712228881332,
+    "duration" : 6305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d59fcd78f4cd14f",
+  "name" : "Verify Signout functionality ",
+  "time" : {
+    "start" : 1712228891092,
+    "stop" : 1712228905413,
+    "duration" : 14321
   },
   "status" : "passed",
   "severity" : "normal"
