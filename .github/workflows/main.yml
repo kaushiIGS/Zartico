@@ -20,11 +20,12 @@ jobs:
         name: Install dependencies
       - run: npx cross-env ENV=dev npm run web
         name: Running E2E tests
-      - name: Install Allure Command-Line Tool
+      - name: Download and Install Allure
         run: |
-          sudo apt-add-repository ppa:qameta/allure -y
-          sudo apt-get update
-          sudo apt-get install allure
+          wget https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.0/allure-commandline-2.16.0.zip
+          unzip allure-commandline-2.16.0.zip
+          sudo mv allure-2.16.0 /opt/allure
+          sudo ln -s /opt/allure/bin/allure /usr/bin/allure
       - name: Generate Allure Reports
         run: |
           allure generate allure-results --clean -o allure-report
