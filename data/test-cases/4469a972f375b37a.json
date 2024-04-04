@@ -1,11 +1,11 @@
 {
-  "uid" : "11aca2b6442624a4",
+  "uid" : "4469a972f375b37a",
   "name" : "Verify Homepage and HelpPage functionality ",
   "historyId" : "7bbdda368ea5b89b87554a9e95decf07",
   "time" : {
-    "start" : 1712230434621,
-    "stop" : 1712230440891,
-    "duration" : 6270
+    "start" : 1712231804317,
+    "stop" : 1712231810708,
+    "duration" : 6391
   },
   "status" : "passed",
   "flaky" : false,
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "\"before each\" hook for All functionality CAT",
       "time" : {
-        "start" : 1712230434621,
-        "stop" : 1712230434754,
-        "duration" : 133
+        "start" : 1712231804317,
+        "stop" : 1712231804448,
+        "duration" : 131
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,11 +34,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "b2a21215cd3dcbb0",
+      "uid" : "7c2b06956130f90c",
       "name" : "Console Logs",
-      "source" : "b2a21215cd3dcbb0.txt",
+      "source" : "7c2b06956130f90c.txt",
       "type" : "text/plain",
-      "size" : 22503
+      "size" : 22513
     } ],
     "parameters" : [ ],
     "stepsCount" : 1,
@@ -82,6 +82,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "11aca2b6442624a4.json",
+  "source" : "4469a972f375b37a.json",
   "parameterValues" : [ "chrome-headless-shell-125.0.6398.0" ]
 }

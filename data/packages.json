@@ -4,13 +4,13 @@
     "name" : ".home.runner.work.Zartico.Zartico.test.specs.Regression.AllFunctionality.ts",
     "children" : [ {
       "name" : "Verify Signin functionality ",
-      "uid" : "7981fb382ca39132",
+      "uid" : "578032909583c060",
       "parentUid" : "fd69eb21ee51d2078fe9454ac0c81c5c",
       "status" : "passed",
       "time" : {
-        "start" : 1712230425923,
-        "stop" : 1712230432617,
-        "duration" : 6694
+        "start" : 1712231795422,
+        "stop" : 1712231802314,
+        "duration" : 6892
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
       "parameters" : [ "chrome-headless-shell-125.0.6398.0" ]
     }, {
       "name" : "Verify Homepage and HelpPage functionality ",
-      "uid" : "11aca2b6442624a4",
+      "uid" : "4469a972f375b37a",
       "parentUid" : "fd69eb21ee51d2078fe9454ac0c81c5c",
       "status" : "passed",
       "time" : {
-        "start" : 1712230434621,
-        "stop" : 1712230440891,
-        "duration" : 6270
+        "start" : 1712231804317,
+        "stop" : 1712231810708,
+        "duration" : 6391
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +38,13 @@
       "parameters" : [ "chrome-headless-shell-125.0.6398.0" ]
     }, {
       "name" : "Verify Profile Page functionality ",
-      "uid" : "8dbd26c594542b00",
+      "uid" : "dc2c5c3498956594",
       "parentUid" : "fd69eb21ee51d2078fe9454ac0c81c5c",
       "status" : "passed",
       "time" : {
-        "start" : 1712230442893,
-        "stop" : 1712230447534,
-        "duration" : 4641
+        "start" : 1712231812711,
+        "stop" : 1712231817455,
+        "duration" : 4744
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,13 +55,13 @@
       "parameters" : [ "chrome-headless-shell-125.0.6398.0" ]
     }, {
       "name" : "Verify Signout functionality ",
-      "uid" : "cf27f8b0feeea869",
+      "uid" : "fa53ff27d41de71c",
       "parentUid" : "fd69eb21ee51d2078fe9454ac0c81c5c",
       "status" : "passed",
       "time" : {
-        "start" : 1712230449535,
-        "stop" : 1712230463834,
-        "duration" : 14299
+        "start" : 1712231819457,
+        "stop" : 1712231833783,
+        "duration" : 14326
       },
       "flaky" : false,
       "newFailed" : false,
