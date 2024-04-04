@@ -4,13 +4,13 @@
     "name" : "All functionality CAT",
     "children" : [ {
       "name" : "Verify Signin functionality ",
-      "uid" : "384e63d0aca6b5c1",
+      "uid" : "7981fb382ca39132",
       "parentUid" : "4262ba23d7724ca3986b33925b64ef7a",
       "status" : "passed",
       "time" : {
-        "start" : 1712228866164,
-        "stop" : 1712228873024,
-        "duration" : 6860
+        "start" : 1712230425923,
+        "stop" : 1712230432617,
+        "duration" : 6694
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
       "parameters" : [ "chrome-headless-shell-125.0.6398.0" ]
     }, {
       "name" : "Verify Homepage and HelpPage functionality ",
-      "uid" : "7b734527aa04486f",
+      "uid" : "11aca2b6442624a4",
       "parentUid" : "4262ba23d7724ca3986b33925b64ef7a",
       "status" : "passed",
       "time" : {
-        "start" : 1712228875027,
-        "stop" : 1712228881332,
-        "duration" : 6305
+        "start" : 1712230434621,
+        "stop" : 1712230440891,
+        "duration" : 6270
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +38,13 @@
       "parameters" : [ "chrome-headless-shell-125.0.6398.0" ]
     }, {
       "name" : "Verify Profile Page functionality ",
-      "uid" : "ad277b6be0f6e3df",
+      "uid" : "8dbd26c594542b00",
       "parentUid" : "4262ba23d7724ca3986b33925b64ef7a",
       "status" : "passed",
       "time" : {
-        "start" : 1712228883335,
-        "stop" : 1712228889091,
-        "duration" : 5756
+        "start" : 1712230442893,
+        "stop" : 1712230447534,
+        "duration" : 4641
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,13 +55,13 @@
       "parameters" : [ "chrome-headless-shell-125.0.6398.0" ]
     }, {
       "name" : "Verify Signout functionality ",
-      "uid" : "d59fcd78f4cd14f",
+      "uid" : "cf27f8b0feeea869",
       "parentUid" : "4262ba23d7724ca3986b33925b64ef7a",
       "status" : "passed",
       "time" : {
-        "start" : 1712228891092,
-        "stop" : 1712228905413,
-        "duration" : 14321
+        "start" : 1712230449535,
+        "stop" : 1712230463834,
+        "duration" : 14299
       },
       "flaky" : false,
       "newFailed" : false,
