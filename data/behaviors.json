@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "All functionality CAT",
+    "children" : [ {
+      "name" : "Verify Signin functionality ",
+      "uid" : "5424e41f1271559e",
+      "parentUid" : "4262ba23d7724ca3986b33925b64ef7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712217275931,
+        "stop" : 1712217282838,
+        "duration" : 6907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-headless-shell-125.0.6397.0" ]
+    }, {
+      "name" : "Verify Homepage and HelpPage functionality ",
+      "uid" : "4de0b50a567221b5",
+      "parentUid" : "4262ba23d7724ca3986b33925b64ef7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712217284841,
+        "stop" : 1712217291718,
+        "duration" : 6877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-headless-shell-125.0.6397.0" ]
+    }, {
+      "name" : "Verify Profile Page functionality ",
+      "uid" : "d35efb3fa85acccd",
+      "parentUid" : "4262ba23d7724ca3986b33925b64ef7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712217293721,
+        "stop" : 1712217299905,
+        "duration" : 6184
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-headless-shell-125.0.6397.0" ]
+    }, {
+      "name" : "Verify Signout functionality ",
+      "uid" : "4dd41d567b9678f4",
+      "parentUid" : "4262ba23d7724ca3986b33925b64ef7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712217301909,
+        "stop" : 1712217316406,
+        "duration" : 14497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-headless-shell-125.0.6397.0" ]
+    } ],
+    "uid" : "4262ba23d7724ca3986b33925b64ef7a"
+  } ],
+  "name" : "behaviors"
+}

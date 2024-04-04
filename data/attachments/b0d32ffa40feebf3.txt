@@ -1,0 +1,61 @@
+.........Console Logs.........
+
+2024-04-04T07:55:01.909Z INFO webdriver: COMMAND navigateTo("https://cat-dev.zartico.com/")
+2024-04-04T07:55:01.910Z INFO webdriver: [POST] http://0.0.0.0:37659/session/9f8eca2fa9da8f20c9bf31041eb8847c/url
+2024-04-04T07:55:01.910Z INFO webdriver: DATA { url: 'https://cat-dev.zartico.com/' }
+2024-04-04T07:55:01.970Z INFO webdriver: RESULT null
+2024-04-04T07:55:01.970Z INFO webdriver: COMMAND maximizeWindow()
+2024-04-04T07:55:01.972Z INFO webdriver: [POST] http://0.0.0.0:37659/session/9f8eca2fa9da8f20c9bf31041eb8847c/window/maximize
+2024-04-04T07:55:02.071Z INFO webdriver: RESULT { height: 735, width: 1440, x: 0, y: 0 }
+::::::::::Test  Verify Signout functionality   Started::::::::::
+2024-04-04T07:55:02.072Z INFO webdriver: COMMAND findElement("xpath", "//*[text()="Help"]/following::*[text()="chevron_right"][2]")
+2024-04-04T07:55:02.074Z INFO webdriver: [POST] http://0.0.0.0:37659/session/9f8eca2fa9da8f20c9bf31041eb8847c/element
+2024-04-04T07:55:02.074Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//*[text()="Help"]/following::*[text()="chevron_right"][2]'
+}
+2024-04-04T07:55:02.096Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.220'
+}
+2024-04-04T07:55:02.098Z INFO webdriver: COMMAND elementClick("f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.220")
+2024-04-04T07:55:02.099Z INFO webdriver: [POST] http://0.0.0.0:37659/session/9f8eca2fa9da8f20c9bf31041eb8847c/element/f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.220/click
+2024-04-04T07:55:02.242Z INFO webdriver: RESULT null
+2024-04-04T07:55:03.271Z INFO webdriver: COMMAND findElement("xpath", "//li[contains(@class,"signOut")]")
+2024-04-04T07:55:03.277Z INFO webdriver: [POST] http://0.0.0.0:37659/session/9f8eca2fa9da8f20c9bf31041eb8847c/element
+2024-04-04T07:55:03.278Z INFO webdriver: DATA { using: 'xpath', value: '//li[contains(@class,"signOut")]' }
+2024-04-04T07:55:03.302Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.253'
+}
+2024-04-04T07:55:03.306Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2024-04-04T07:55:03.307Z INFO webdriver: [POST] http://0.0.0.0:37659/session/9f8eca2fa9da8f20c9bf31041eb8847c/execute/sync
+2024-04-04T07:55:03.307Z INFO webdriver: DATA {
+  script: 'isElementDisplayed(...) [8489 bytes]',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': 'f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.253',
+      ELEMENT: 'f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.253'
+    }
+  ]
+}
+2024-04-04T07:55:03.316Z INFO webdriver: RESULT true
+2024-04-04T07:55:03.316Z INFO webdriver: COMMAND findElement("xpath", "//li[contains(@class,"signOut")]")
+2024-04-04T07:55:03.317Z INFO webdriver: [POST] http://0.0.0.0:37659/session/9f8eca2fa9da8f20c9bf31041eb8847c/element
+2024-04-04T07:55:03.317Z INFO webdriver: DATA { using: 'xpath', value: '//li[contains(@class,"signOut")]' }
+2024-04-04T07:55:03.324Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.253'
+}
+2024-04-04T07:55:03.327Z INFO webdriver: COMMAND elementClick("f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.253")
+2024-04-04T07:55:03.328Z INFO webdriver: [POST] http://0.0.0.0:37659/session/9f8eca2fa9da8f20c9bf31041eb8847c/element/f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.253/click
+2024-04-04T07:55:03.379Z INFO webdriver: RESULT null
+2024-04-04T07:55:06.381Z INFO webdriver: COMMAND findElement("xpath", "//button[contains(@class,"css-1i8u2f7")]")
+2024-04-04T07:55:06.382Z INFO webdriver: [POST] http://0.0.0.0:37659/session/9f8eca2fa9da8f20c9bf31041eb8847c/element
+2024-04-04T07:55:06.382Z INFO webdriver: DATA { using: 'xpath', value: '//button[contains(@class,"css-1i8u2f7")]' }
+2024-04-04T07:55:06.393Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.257'
+}
+2024-04-04T07:55:06.397Z INFO webdriver: COMMAND elementClick("f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.257")
+2024-04-04T07:55:06.398Z INFO webdriver: [POST] http://0.0.0.0:37659/session/9f8eca2fa9da8f20c9bf31041eb8847c/element/f.1315A0E7D0A2C1CD5F16505E63021BD8.d.D55BDE2244CFC4BA865B4F93B52890A3.e.257/click
+2024-04-04T07:55:06.436Z INFO webdriver: RESULT null
+::::::::::Test  Verify Signout functionality   Passed::::::::::
+
+
